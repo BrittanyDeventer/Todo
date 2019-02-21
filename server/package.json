@@ -28,6 +28,6 @@
     "start": "node index.js",
     "dboff": "killall mongod",
     "watch": "nodemon index.js",
-    "dbon": "C:/Program Files/MongoDB/Server/4.0/bin/mongod"
+    "dbon": "mongod --dbpath C:/data/db"
   }
 }
