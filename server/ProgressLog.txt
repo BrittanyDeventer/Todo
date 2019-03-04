@@ -1,5 +1,0 @@
-// Feb 19:
-following along with https://alligator.io/react/mern-stack-intro/
-issues starting the database
-'npm run dbon' is causing errors that the syntax is incorrect 
-the tutorial has this for a unix machine syntax: mkdir -p ./db && mongod --dbpath ./db
