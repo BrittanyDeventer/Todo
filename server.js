@@ -6,7 +6,7 @@ const passport = require("passport");
 // Route files
 const todos = require("./routes/api/todos");
 const users = require("./routes/api/users");
-// const profile = require("./routes/api/profile");
+const profile = require("./routes/api/profile");
 
 // Initialize app
 const app = express();
@@ -32,7 +32,7 @@ require("./config/passport")(passport);
 
 // Use Routes
 app.use("/api/users", users);
-// app.use("/api/profile", profile);
+app.use("/api/profile", profile);
 // app.use("/api/todos", todos);
 
 const port = process.env.PORT || 5000; //run on port 5000 until we deploy
