@@ -33,7 +33,7 @@ require("./config/passport")(passport);
 // Use Routes
 app.use("/api/users", users);
 app.use("/api/profile", profile);
-// app.use("/api/todos", todos);
+app.use("/api/todos", todos);
 
 const port = process.env.PORT || 5000; //run on port 5000 until we deploy
 app.listen(port, () => console.log(`Server running on port ${port}`));
